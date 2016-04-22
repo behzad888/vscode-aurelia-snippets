@@ -1,0 +1,190 @@
+{
+    "auIf": {
+        "prefix": "if.bind",
+        "body": [
+            "if.bind=\"${expression}\""
+        ],
+        "description": "Aurelia if snippet"
+    },
+    "auWith": {
+        "prefix": "with.bind",
+        "body": [
+            "with.bind=\"${expression}\""
+        ],
+        "description": "Aurelia with snippet"
+    },
+    "auValue": {
+        "prefix": "value.bind",
+        "body": [
+            "value.bind=\"${binding}\""
+        ],
+        "description": "Aurelia value.bind snippet"
+    },
+    "auClickTrigger": {
+        "prefix": "click.trigger",
+        "body": [
+            "click.trigger=\"${trigger}\""
+        ],
+        "description": "Aurelia click.trigger snippet"
+    },
+    "auClickDelegate": {
+        "prefix": "click.delegate",
+        "body": [
+            "click.delegate=\"${delegate}\""
+        ],
+        "description": "Aurelia click.delegate snippet"
+    },
+    "auFor": {
+        "prefix": "repeat.for",
+        "body": [
+            "repeat.for=\"${item} of ${collection}\""
+        ],
+        "description": "Aurelia for loop snippet"
+    },
+    "auValueTwoWay": {
+        "prefix": "value.two-way",
+        "body": [
+            "value.two-way=\"${binding}\""
+        ],
+        "description": "Aurelia two way value binding snippet"
+    },
+    "auValueOneWaty": {
+        "prefix": "value.one-way",
+        "body": [
+            "click.one-way=\"${binding}\""
+        ],
+        "description": "Aurelia  one way  value binding snippet"
+    },
+    "auValueOneTime": {
+        "prefix": "value.one-time",
+        "body": [
+            "value.one-time=\"${binding}\""
+        ],
+        "description": "Aurelia one time value binding snippet"
+    },
+    "auModel": {
+        "prefix": "model.bind",
+        "body": [
+            "model.bind=\"${binding}\""
+        ],
+        "description": "Aurelia model binding snippet"
+    },
+    "auModelTwoWay": {
+        "prefix": "model.two-way",
+        "body": [
+            "model.two-way=\"${binding}\""
+        ],
+        "description": "Aurelia two way model binding snippet"
+    },
+    "auModelOneWay": {
+        "prefix": "model.one-way",
+        "body": [
+            "model.one-way=\"${binding}\""
+        ],
+        "description": "Aurelia one way model binding snippet"
+    },
+    "auModelOneTime": {
+        "prefix": "model.one-time",
+        "body": [
+            "model.one-time=\"${binding}\""
+        ],
+        "description": "Aurelia one time model binding snippet"
+    },
+    "auChecked": {
+        "prefix": "checked.bind",
+        "body": [
+            "checked.bind=\"${binding}\""
+        ],
+        "description": "Aurelia checked binding snippet"
+    },
+    "auInnerHTML": {
+        "prefix": "innerhtml.bind",
+        "body": [
+            "innerhtml.bind=\"${binding}\""
+        ],
+        "description": "Aurelia innerhtml binding snippet"
+    },
+    "auTextContent": {
+        "prefix": "textcontent.bind",
+        "body": [
+            "textcontent.bind=\"${binding}\""
+        ],
+        "description": "Aurelia textcontent binding snippet"
+    },
+    "auStyle": {
+        "prefix": "style.bind",
+        "body": [
+            "style.bind=\"${binding}\""
+        ],
+        "description": "Aurelia style binding snippet"
+    },
+    "auShow": {
+        "prefix": "show.bind",
+        "body": [
+            "show.bind=\"${binding}\""
+        ],
+        "description": "Aurelia show binding snippet"
+    },
+    "auViewModel": {
+        "prefix": "view-model.bind",
+        "body": [
+            "view-model.bind=\"${binding}\""
+        ],
+        "description": "Aurelia view-model binding snippet"
+    },
+    "auCompose": {
+        "prefix": "compose",
+        "body": [
+            "<compose view=\"${url}\" ${view-model=\"${item}\"}></compose>"
+        ],
+        "description": "Aurelia composing snippet"
+    },
+    "auRequire": {
+        "prefix": "require",
+        "body": [
+            "<require from=\"${url}\"></require>"
+        ],
+        "description": "Aurelia require snippet"
+    },
+    "auTemplate": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "\n${Your Template Here}",
+            "</template>"
+        ],
+        "description": "Aurelia template snippet"
+    },
+    "auBindable": {
+        "prefix": "Bindable",
+        "body": [
+            "bindable=\"${name}\""
+        ],
+        "description": "Aurelia bindable snippet"
+    },
+    "auTo": {
+        "prefix": "to.bind",
+        "body": [
+            "to.bind=\"${binding}\""
+        ],
+        "description": "Aurelia To binding snippet"
+    },
+    "auReplaceable": {
+        "prefix": "replaceable",
+        "body": [
+            "<template replaceable part=\"${item}\">",
+            "\n${Your Original Here}",
+            "</template>"
+        ],
+        "description": "Aurelia To binding snippet"
+    },
+    "auReplacePart": {
+        "prefix": "replace-part",
+        "body": [
+            "<template replace-part=\"${item}\">",
+            "\n${Your Replacement Here}",
+            "</template>"
+        ],
+        "description": "Aurelia To binding snippet"
+    }
+}
