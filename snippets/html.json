@@ -20,6 +20,27 @@
         ],
         "description": "Aurelia value.bind snippet"
     },
+    "auInput": {
+        "prefix": "input.bind",
+        "body": [
+            "input.bind=\"${binding}\""
+        ],
+        "description": "Aurelia input.bind snippet"
+    },
+    "auHref": {
+        "prefix": "href.bind",
+        "body": [
+            "href.bind=\"${url}\""
+        ],
+        "description": "Aurelia href.bind snippet"
+    },    
+    "auRouter": {
+        "prefix": "router.bind",
+        "body": [
+            "router.bind=\"${router}\""
+        ],
+        "description": "Aurelia router.bind snippet"
+    },
     "auClickTrigger": {
         "prefix": "click.trigger",
         "body": [
@@ -150,7 +171,7 @@
         "prefix": "template",
         "body": [
             "<template>",
-            "\n${Your Template Here}",
+            "${Your Template Here}",
             "</template>"
         ],
         "description": "Aurelia template snippet"
@@ -173,7 +194,7 @@
         "prefix": "replaceable",
         "body": [
             "<template replaceable part=\"${item}\">",
-            "\n${Your Original Here}",
+            "${Your Original Here}",
             "</template>"
         ],
         "description": "Aurelia To binding snippet"
@@ -182,9 +203,58 @@
         "prefix": "replace-part",
         "body": [
             "<template replace-part=\"${item}\">",
-            "\n${Your Replacement Here}",
+            "${Your Replacement Here}",
             "</template>"
         ],
         "description": "Aurelia To binding snippet"
+    },
+    "auViewRef": {
+        "prefix": "viewRef",
+        "body": [
+            "view.ref=\"${someIdentifier}\""
+           
+        ],
+        "description": "Aurelia view references snippet"
+    },
+    "auViewModelRef": {
+        "prefix": "viewmodelRef",
+        "body": [
+            "view-model.ref=\"${someIdentifier}\""
+           
+        ],
+        "description": "Aurelia view-mode references snippet"
+    },
+    "auControllerlRef": {
+        "prefix": "controllerRef",
+        "body": [
+            "controller.ref=\"${someIdentifier}\""
+           
+        ],
+        "description": "Aurelia controller references snippet"
+    
+    },
+    "auAttributeNamelRef": {
+        "prefix": "attributeRef",
+        "body": [
+            "attribute-name.ref=\"${someIdentifier}\""
+           
+        ],
+        "description": "Aurelia attribute-name references snippet"
+    
+    },
+    "auElementRef": {
+        "prefix": "elementRef",
+        "body": [
+            "element.ref=\"${someIdentifier}\""
+           
+        ],
+        "description": "Aurelia element references snippet"
+    },
+    "auProducer": {
+        "prefix": "producer.ref",
+        "body": [
+            "producer.ref=\"${producerVMurl}\""
+        ],
+        "description": "Aurelia producer.bind snippet"
     }
 }

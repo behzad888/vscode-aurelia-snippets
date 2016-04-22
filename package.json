@@ -1,5 +1,5 @@
 {
-    "name": "aurelia",
+    "name": "Aurelia",
     "publisher": "behzad88",
     "displayName": "Aurelia Snippets",
     "description": "Aurelia JavaScript, TypeScript and HTML snippets",
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/behzad888/vscode-aurelia-snippets.git"
     },
-    "version": "0.0.3",
+    "version": "0.0.6",
     "engines": { "vscode": "0.10.x" },
     "categories": ["Snippets"],
     "contributes": {
