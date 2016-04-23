@@ -113,13 +113,6 @@
         ],
         "description": "Aurelia declaring dependencies snippet"
     },
-    "Using Resolvers Decorator": {
-        "prefix": "inject",
-        "body": [
-            "@inject(${Lazy}.of(${dep}))"
-        ],
-        "description": "Aurelia using resolvers contains Lazy,All,Optional snippet"
-    },
     "Using Lazy Resolver Decorator": {
         "prefix": "lazy",
         "body": [
@@ -236,7 +229,7 @@
         "body": [
             "@customAttribute(${name})"
         ],
-        "description": "Aurelia determineActivationStrategy snippet"
+        "description": "Aurelia customAttribute snippet"
     },
     "Custom Attribute Class": {
         "prefix": "customAttributeClass",
