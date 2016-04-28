@@ -13,7 +13,11 @@
         "type": "git",
         "url": "https://github.com/behzad888/vscode-aurelia-snippets.git"
     },
+<<<<<<< HEAD
     "version": "0.0.8",
+=======
+    "version": "0.0.7",
+>>>>>>> origin/master
     "engines": { "vscode": "0.10.x" },
     "categories": ["Snippets"],
     "contributes": {
