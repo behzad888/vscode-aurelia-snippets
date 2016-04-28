@@ -176,7 +176,7 @@
         "prefix": "configureRouter",
         "body": [
             "export class ${App}() {",
-            "\tconfigureRouter(config, router)",
+            "\tconfigureRouter(config, router) {",
             "\t\tthis.router = reouter;",
             "\t\tconfig.title = '${Title}';",
             "\t\tconfig.map([",
@@ -244,7 +244,7 @@
             "import {inject, customAttribute} from 'aurelia-framework';",
             "",
             "@customAttribute(${new-custom-attribute })",
-            "@inject(Element)",
+            "@inject(DOM.Element)",
             "export class ${NewCustomAttribute} {",
             "\tconstructor(element) {",
             "\t\tthis.element = element;",
