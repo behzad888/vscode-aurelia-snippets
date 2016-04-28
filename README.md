@@ -1,6 +1,6 @@
-# Aurelia TypeScript Snippets for VS Code
+# Aurelia Snippets for VS Code
 
-This extension for Visual Studio Code adds snippets for Aurelia for TypeScript and HTML.
+This extension for Visual Studio Code adds snippets for Aurelia for TypeScript, Javascript and HTML.
 
 ## Usage
 Type part of a snippet, press `enter`, and the snippet unfolds.
