@@ -191,7 +191,7 @@
     "Activate Screen Lifecycle": {
         "prefix": "activate",
         "body": [
-            "activate(${params}, ${routeConfig}, $navigationInstruction}) {",
+            "activate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
             "}"
         ],

@@ -193,7 +193,7 @@
     "CanActivate Screen Lifecycle": {
         "prefix": "canActivate",
         "body": [
-            "canActivate(${params}, ${routeConfig}, $navigationInstruction}) {",
+            "canActivate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
             "}"
         ],
