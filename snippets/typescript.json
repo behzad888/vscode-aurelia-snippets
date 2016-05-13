@@ -181,10 +181,10 @@
             "",
             "export class ${App}() {",
             "\tconfigureRouter(config: RouterConfiguration, router: Router): void {",
-            "\t\tthis.router = reouter;",
+            "\t\tthis.router = router;",
             "\t\tconfig.title = '${Title}';",
             "\t\tconfig.map([",
-            "\t\t\t{ route: ${address},       name: '${name}',       moduleId: '${url}' ${, nav=true} }$0",
+            "\t\t\t{ route: ${address},       name: '${name}',       moduleId: '${url}' ${, nav=true} },  title: '${title}'$0",
             "\t\t]);",
             "}"
         ],
