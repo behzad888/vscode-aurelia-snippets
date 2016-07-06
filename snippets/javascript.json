@@ -182,7 +182,7 @@
     "CanActivate Screen Lifecycle": {
         "prefix": "canActivate",
         "body": [
-            "canActivate(${params}, ${routeConfig}, $navigationInstruction}) {",
+            "canActivate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
             "}"
         ],
@@ -236,7 +236,7 @@
         "body": [
             "import {inject, customAttribute} from 'aurelia-framework';",
             "",
-            "@customAttribute(${new-custom-attribute })",
+            "@customAttribute(${new-custom-attribute})",
             "@inject(DOM.Element)",
             "export class ${NewCustomAttribute} {",
             "\tconstructor(element) {",
