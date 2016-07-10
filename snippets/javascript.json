@@ -234,7 +234,7 @@
     "Custom Attribute Class": {
         "prefix": "customAttributeClass",
         "body": [
-            "import {inject, customAttribute} from 'aurelia-framework';",
+            "import {inject, customAttribute, DOM} from 'aurelia-framework';",
             "",
             "@customAttribute(${new-custom-attribute})",
             "@inject(DOM.Element)",
@@ -261,7 +261,7 @@
         "description": "Aurelia valueChanged function snippet"
     },
     "Custom Element Class": {
-        "prefix": "customAttributeClass",
+        "prefix": "customElementClass",
         "body": [
             "import {customElement, bindable} from 'aurelia-framework';",
             "",
@@ -269,7 +269,7 @@
             "export class ${NewElement} {",
             "\t @bindable to;",
             "",
-            "$newFunction(){$0}}",
+            "${newFunction}(){$0}}",
             "}"
         ],
         "description": "Aurelia new customElement snippet"

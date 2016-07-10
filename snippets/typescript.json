@@ -4,6 +4,7 @@
         "body": [
             "import {LogManager} from 'aurelia-framework';",
             "import {ConsoleAppender} from 'aurelia-logging-console';",
+            "import {Aurelia} from 'aurelia-framework';",
             "",
             "LogManager.addAppender(new ConsoleAppender());",
             "LogManager.setLevel(LogManager.logLevel.debug);",
@@ -115,13 +116,6 @@
         ],
         "description": "Aurelia declaring dependencies snippet"
     },
-    "Using Resolvers Decorator": {
-        "prefix": "inject",
-        "body": [
-            "@inject(${Lazy}.of(${dep}))"
-        ],
-        "description": "Aurelia using resolvers contains Lazy,All,Optional snippet"
-    },
     "Using Lazy Resolver Decorator": {
         "prefix": "lazy",
         "body": [
@@ -202,7 +196,7 @@
     "Activate Screen Lifecycle": {
         "prefix": "activate",
         "body": [
-            "activate(${params}, ${routeConfig}, $navigationInstruction}) {",
+            "activate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
             "}"
         ],
@@ -272,7 +266,7 @@
         "description": "Aurelia valueChanged function snippet"
     },
     "Custom Element Class": {
-        "prefix": "customAttributeClass",
+        "prefix": "customElementClass",
         "body": [
             "import {customElement, bindable} from 'aurelia-framework';",
             "",
@@ -280,7 +274,7 @@
             "export class ${NewElement} {",
             "\t @bindable to: any;",
             "",
-            "$newFunction(){$0}}",
+            "${newFunction}(){$0}}",
             "}"
         ],
         "description": "Aurelia new customElement snippet"
