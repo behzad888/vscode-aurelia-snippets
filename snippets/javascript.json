@@ -168,14 +168,15 @@
     "Basic Route Configuration": {
         "prefix": "configureRouter",
         "body": [
-            "export class ${App}() {",
+            "export class ${App} {",
             "\tconfigureRouter(config, router) {",
             "\t\tthis.router = router;",
             "\t\tconfig.title = '${Title}';",
             "\t\tconfig.map([",
-            "\t\t\t{ route: ${address},       name: '${name}',       moduleId: '${url}' ${, nav=true} },  title: '${title}'$0",
+            "\t\t\t{ route: '${address}', name: '${name}', moduleId:'${url}', ${nav=true},  title:'${title}' }$0",
             "\t\t]);",
-            "}"
+            "\t}",
+            "}",
         ],
         "description": "Aurelia basic route configuration class snippet"
     },
