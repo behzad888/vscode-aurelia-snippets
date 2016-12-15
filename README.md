@@ -7,22 +7,22 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ##TypeScript Snippets
 ```javascript
-configuration          // creates an Aurelia startup configuration
-bootstrapper           // creates an Aurelia explicit startup configuration
-feature                // add a feature
-plugin                 // add a plugin
-useView                // creates an Aurelia component
-created, attached, bind, unbind          // Aurelia component lifecycle
-inject                 // Aurelia declaring dependencies
-lazy, all, optional    // Aurelia using resolvers contains
-transient, singleton   // Aurelia explicit registration 
-containerless          // Aurelia containerLess Templating
-computed               // Aurelia declaring computed property dependencies
-configureRouter        // creates an Aurelia basic route configuration class
-canActivate, activate, canDeactivate, deactivate // Aurelia screen lifecycle
-customAttribute        // Aurelia customAttribute Decorator
-valueChanged           // creates an Aurelia valueChanged function
-subscribe              // creates an Aurelia event aggregator subscribe function
+au-configuration          // creates an Aurelia startup configuration
+au-bootstrapper           // creates an Aurelia explicit startup configuration
+au-feature                // add a feature
+au-plugin                 // add a plugin
+au-useView                // creates an Aurelia component
+au-created, au-attached, au-bind, au-unbind          // Aurelia component lifecycle
+au-inject                 // Aurelia declaring dependencies
+au-lazy, au-all, au-optional    // Aurelia using resolvers contains
+au-transient, au-singleton   // Aurelia explicit registration 
+au-containerless          // Aurelia containerLess Templating
+au-computed               // Aurelia declaring computed property dependencies
+au-configureRouter        // creates an Aurelia basic route configuration class
+au-canActivate, au-activate, au-canDeactivate, au-deactivate // Aurelia screen lifecycle
+au-customAttribute        // Aurelia customAttribute Decorator
+au-valueChanged           // creates an Aurelia valueChanged function
+au-subscribe              // creates an Aurelia event aggregator subscribe function
 ```
 Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activate snippets from within the editor.
 
@@ -44,22 +44,22 @@ Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activ
 
 ##JavaScript Snippets
 ```javascript
-configuration          // creates an Aurelia startup configuration
-bootstrapper           // creates an Aurelia explicit startup configuration
-feature                // add a feature
-plugin                 // add a plugin
-useView                // creates an Aurelia component
-created, attached, bind, unbind          // Aurelia component lifecycle
-inject                 // Aurelia declaring dependencies
-lazy, all, optional    // Aurelia using resolvers contains
-transient, singleton   // Aurelia explicit registration 
-containerless          // Aurelia containerLess Templating
-computed               // Aurelia declaring computed property dependencies
-configureRouter        // creates an Aurelia basic route configuration class
-canActivate, activate, canDeactivate, deactivate // Aurelia screen lifecycle
-customAttribute        // Aurelia customAttribute Decorator
-valueChanged           // creates an Aurelia valueChanged function
-subscribe              // creates an Aurelia event aggregator subscribe function
+au-configuration          // creates an Aurelia startup configuration
+au-bootstrapper           // creates an Aurelia explicit startup configuration
+au-feature                // add a feature
+au-plugin                 // add a plugin
+au-useView                // creates an Aurelia component
+au-created, au-attached, au-bind, au-unbind          // Aurelia component lifecycle
+au-inject                 // Aurelia declaring dependencies
+au-lazy, au-all, au-optional    // Aurelia using resolvers contains
+au-transient, au-singleton   // Aurelia explicit registration 
+au-containerless          // Aurelia containerLess Templating
+au-computed               // Aurelia declaring computed property dependencies
+au-configureRouter        // creates an Aurelia basic route configuration class
+au-canActivate, au-activate, au-canDeactivate, au-deactivate // Aurelia screen lifecycle
+au-customAttribute        // Aurelia customAttribute Decorator
+au-valueChanged           // creates an Aurelia valueChanged function
+au-subscribe              // creates an Aurelia event aggregator subscribe function
 ```
 Alternatively, press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to activate snippets from within the editor.
 
