@@ -1,9 +1,9 @@
 {
     "Explicit Startup Configuration": {
-        "prefix": "au-bootstrapper",
+        "prefix": "auBootstrapper",
         "body": [
             "import {LogManager} from 'aurelia-framework';",
-            "import {ConsoleAppender} from 'aurelia-logging-console';",
+            "import {ConsoleAppender} from 'aurelia-loggingConsole';",
             "",
             "LogManager.addAppender(new ConsoleAppender());",
             "LogManager.setLevel(LogManager.logLevel.debug);",
@@ -22,7 +22,7 @@
         "description": "Aurelia explicit standard configuration export function snippet"
     },
     "Standard Startup Configuration": {
-        "prefix": "au-configuration",
+        "prefix": "auConfiguration",
         "body": [
             "export function configure(aurelia)",
             "{",
@@ -36,21 +36,21 @@
         "description": "Aurelia standard configuration export function snippet"
     },
     "Install Feature": {
-        "prefix": "au-feature",
+        "prefix": "auFeature",
         "body": [
             ".feature('${feature-name}');"
         ],
         "description": "Aurelia install feature snippet"
     },
     "Install Plugin": {
-        "prefix": "au-plugin",
+        "prefix": "auPlugin",
         "body": [
             ".plugin('${plugin-name}', ${config} => { $0 });"
         ],
         "description": "Aurelia install plugin snippet"
     },
     "Creating Components Class": {
-        "prefix": "au-useView",
+        "prefix": "auUseView",
         "body": [
             "import {useView} from 'aurelia-framework';",
             "",
@@ -62,7 +62,7 @@
         "description": "Aurelia creating new component snippet"
     },
     "Creating Components Lifecycle": {
-        "prefix": "au-created",
+        "prefix": "auCreated",
         "body": [
             "created(${owningView}, ${myView}) {",
             "\t$0",
@@ -71,7 +71,7 @@
         "description": "Aurelia created function in component lifecycle snippet"
     },
     "Attached Components Lifecycle": {
-        "prefix": "au-attached",
+        "prefix": "auAttached",
         "body": [
             "attached() {",
             "\t$0",
@@ -80,7 +80,7 @@
         "description": "Aurelia attached function in component lifecycle snippet"
     },
     "Detached Components Lifecycle": {
-        "prefix": "au-detached",
+        "prefix": "auDetached",
         "body": [
             "detached() {",
             "\t$0",
@@ -89,7 +89,7 @@
         "description": "Aurelia detached function in component lifecycle snippet"
     },
     "Bind Components Lifecycle": {
-        "prefix": "au-bind",
+        "prefix": "auBind",
         "body": [
             "bind(${bindingContext},${overrideContext}) {",
             "\t$0",
@@ -98,7 +98,7 @@
         "description": "Aurelia bind function in component lifecycle snippet"
     },
     "Unbind Components Lifecycle": {
-        "prefix": "au-unbind",
+        "prefix": "auUnbind",
         "body": [
             "unbind() {",
             "\t$0",
@@ -107,56 +107,56 @@
         "description": "Aurelia unbind function in component lifecycle snippet"
     },
     "Declaring Dependencies Decorator": {
-        "prefix": "au-inject",
+        "prefix": "auInject",
         "body": [
             "@inject(${dep})"
         ],
         "description": "Aurelia declaring dependencies snippet"
     },
     "Using Lazy Resolver Decorator": {
-        "prefix": "au-lazy",
+        "prefix": "auLazy",
         "body": [
             "@inject(Lazy.of(${dep}))"
         ],
         "description": "Aurelia using Lazy resolver snippet"
     },
     "Using All Resolver Decorator": {
-        "prefix": "au-all",
+        "prefix": "auAll",
         "body": [
             "@inject(All.of(${dep}))"
         ],
         "description": "Aurelia using All resolver snippet"
     },
     "Using Optional Resolver Decorator": {
-        "prefix": "au-optional",
+        "prefix": "auOptional",
         "body": [
             "@inject(Optional.of(${dep}))"
         ],
         "description": "Aurelia using Optional resolver snippet"
     },
     "Explicit Transient Registration Decorator": {
-        "prefix": "au-transient",
+        "prefix": "auTransient",
         "body": [
             "@transient()"
         ],
         "description": "Aurelia transient explicit registration snippet"
     },
     "Explicit Singleton Registration Decorator": {
-        "prefix": "au-singleton",
+        "prefix": "auSingleton",
         "body": [
             "@singleton()"
         ],
         "description": "Aurelia singleton explicit registration snippet"
     },
     "ContainerLess Templating Decorator": {
-        "prefix": "au-containerless",
+        "prefix": "auContainerless",
         "body": [
             "@containerless()"
         ],
         "description": "Aurelia containerLess Templating snippet"
     },
     "Computed Properties": {
-        "prefix": "au-computed",
+        "prefix": "auComputed",
         "body": [
             "@computedFrom('${first}', '${two}')",
             "get ${full}() {",
@@ -166,7 +166,7 @@
         "description": "Aurelia declaring computed property dependencies snippet"
     },
     "Basic Route Configuration": {
-        "prefix": "au-configureRouter",
+        "prefix": "auConfigureRouter",
         "body": [
             "export class ${App} {",
             "\tconfigureRouter(config, router) {",
@@ -181,7 +181,7 @@
         "description": "Aurelia basic route configuration class snippet"
     },
     "CanActivate Screen Lifecycle": {
-        "prefix": "au-canActivate",
+        "prefix": "auCanActivate",
         "body": [
             "canActivate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
@@ -190,7 +190,7 @@
         "description": "Aurelia canActivate screen lifecycle function snippet"
     },
     "Activate Screen Lifecycle": {
-        "prefix": "au-activate",
+        "prefix": "auActivate",
         "body": [
             "activate(${params}, ${routeConfig}, $navigationInstruction) {",
             "\t$0",
@@ -199,7 +199,7 @@
         "description": "Aurelia activate screen lifecycle function snippet"
     },
     "CanDeactivate Screen Lifecycle": {
-        "prefix": "au-canDeactivate",
+        "prefix": "auCanDeactivate",
         "body": [
             "canDeactivate() {",
             "\t$0",
@@ -208,7 +208,7 @@
         "description": "Aurelia canDeactivate screen lifecycle function snippet"
     },
     "Deactivate Screen Lifecycle": {
-        "prefix": "au-deactivate",
+        "prefix": "auDeactivate",
         "body": [
             "deactivate() {",
             "\t$0",
@@ -217,7 +217,7 @@
         "description": "Aurelia deactivate screen lifecycle function snippet"
     },
     "Determine Activation Strategy": {
-        "prefix": "au-determineActivationStrategy",
+        "prefix": "auDetermineActivationStrategy",
         "body": [
             "determineActivationStrategy() {",
             "\t return activationStrategy.${replace}",
@@ -226,18 +226,18 @@
         "description": "Aurelia determineActivationStrategy function snippet"
     },
     "Custom Attribute Decorator": {
-        "prefix": "au-customAttribute",
+        "prefix": "auCustomAttribute",
         "body": [
             "@customAttribute(${name})"
         ],
         "description": "Aurelia customAttribute snippet"
     },
     "Custom Attribute Class": {
-        "prefix": "au-customAttributeClass",
+        "prefix": "auCustomAttributeClass",
         "body": [
             "import {inject, customAttribute, DOM} from 'aurelia-framework';",
             "",
-            "@customAttribute(${new-custom-attribute})",
+            "@customAttribute(${newCustomAttribute})",
             "@inject(DOM.Element)",
             "export class ${NewCustomAttribute} {",
             "\tconstructor(element) {",
@@ -252,7 +252,7 @@
         "description": "Aurelia new customAttribute snippet"
     },
     "Value Changing Custom Attribute": {
-        "prefix": "au-valueChanged",
+        "prefix": "auValueChanged",
         "body": [
             "valueChanged(newValue) {",
             "\tif (newValue) {",
@@ -262,7 +262,7 @@
         "description": "Aurelia valueChanged function snippet"
     },
     "Custom Element Class": {
-        "prefix": "au-customElementClass",
+        "prefix": "auCustomElementClass",
         "body": [
             "import {customElement, bindable} from 'aurelia-framework';",
             "",
@@ -276,7 +276,7 @@
         "description": "Aurelia new customElement snippet"
     },
     "Event Aggregator Subscribe": {
-        "prefix": "au-subscribe",
+        "prefix": "auSubscribe",
         "body": [
             "subscribe() {",
             "\tthis.eventAggregator.subscribe(${some}, ${s} => {",
@@ -287,7 +287,7 @@
         "description": "Aurelia event aggregator subscribe function snippet"
     },
     "Value Converter": {
-        "prefix": "au-valueConverter",
+        "prefix": "auValueConverter",
         "body": [
             "export class ${name}ValueConverter {",
             "\ttoView(${value}) {",
