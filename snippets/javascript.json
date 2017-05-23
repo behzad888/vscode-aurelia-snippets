@@ -270,7 +270,7 @@
             "export class ${NewElement} {",
             "\t @bindable to;",
             "",
-            "${newFunction}(){$0}}",
+            "${newFunction}(){$0}",
             "}"
         ],
         "description": "Aurelia new customElement snippet"
