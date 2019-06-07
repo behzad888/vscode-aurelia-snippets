@@ -48,6 +48,13 @@
         ],
         "description": "Aurelia click.trigger snippet"
     },
+    "auSubmitTrigger": {
+        "prefix": "submit.trigger",
+        "body": [
+            "submit.trigger=\"${trigger}\""
+        ],
+        "description": "Aurelia submit.trigger snippet"
+    },
     "auClickDelegate": {
         "prefix": "click.delegate",
         "body": [
